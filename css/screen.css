@@ -850,7 +850,7 @@ input::placeholder {
     transition: all var(--transition-alpha);
 }
 
-.c-toggle__checkbox-hidden:hover + .c-toggle__label .c-toggle__input {
+.c-toggle__checkbox-hidden:focus + .c-toggle__label .c-toggle__input {
     box-shadow: 0px 0px 0px 2px rgba(51,133,255,0.2);
     border-color: var(--color-alpha-x-light);
 }
@@ -874,7 +874,7 @@ input::placeholder {
 }
 
 .c-toggle__checkbox-hidden:focus + .c-toggle__label--inverted .c-toggle__input--alternative {
-    box-shadow: none;
+    box-shadow: 0px 0px 0px 2px #FFF;
     border-color: #FFF;
 }
 
